@@ -1,10 +1,3 @@
-
-# Project: Textract S3 Trigger with Lambda
-
-This project demonstrates how to use AWS Lambda with Amazon Textract to process images uploaded to an S3 bucket. The processed data is stored back in the same S3 bucket under an `output` folder. The setup involves using a Lambda function, a custom layer for the `trp` library, and S3 event notifications.
-
----
-
 ## Steps to Set Up the Project
 
 ### 1. Download the `trp` Library Zip File
