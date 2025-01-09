@@ -66,6 +66,4 @@ This project demonstrates how to use AWS Lambda with Amazon Textract to process 
 ### Verify Output:
 - Check the `output` folder in the `ngo1` bucket for the generated `.json` file containing the processed data.
 
----
 
-Feel free to share this repository or modify it to suit your needs. For any issues, refer to the AWS documentation or reach out for support.
