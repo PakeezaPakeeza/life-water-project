@@ -1,8 +1,7 @@
 ## Steps to Set Up the Project
 
 ### 1. Download the `trp` Library Zip File
-- Clone or download the `.zip` file from the GitHub repository:
-  - Repository URL: `<Your GitHub Repository URL>`
+- Clone or download the `.zip` file from the GitHub repository
 - Ensure you have the `textract-trp-layer.zip` file downloaded locally.
 
 ### 2. Upload the Layer to AWS Lambda
@@ -14,7 +13,7 @@
 1. Go to **IAM Console → Roles → Create Role**.
 2. Select **Lambda** as the trusted entity.
 3. Attach the following policies:
-   - **AmazonS3FullAccess** (or restrict access to the `ngo1` bucket).
+   - **AmazonS3FullAccess** 
    - **AmazonTextractFullAccess**.
    - **CloudWatchLogsFullAccess**.
 4. Complete the role creation and note the Role ARN.
